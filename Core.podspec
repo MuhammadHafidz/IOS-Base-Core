@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
   s.name = "Core"
   s.summary = "Dicoding Core.framework for modularization chapter"
   s.requires_arc = true
-  s.version = "1.0.0"
+  s.version = "1.0.1"
   s.license = { :type => "MIT", :file => "LICENSE" }
 
   s.author = { "MuhammadHafidz" => "hafidzamarul@gmail.com" }
@@ -25,8 +25,8 @@ Pod::Spec.new do |s|
   s.source_files = "Core/**/*.{swift}"
   s.swift_version = "5.1"
 
-  spec.dependency "RealmSwift"
-  spec.dependency "RxSwift", "~> 6.5.0"
-  spec.dependency "RxCocoa", "~> 6.5.0"
+  s.dependency "RealmSwift"
+  s.dependency "RxSwift", "~> 6.5.0"
+  s.dependency "RxCocoa", "~> 6.5.0"
 
 end
