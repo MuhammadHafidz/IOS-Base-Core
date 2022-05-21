@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
   s.name = "Core"
   s.summary = "Dicoding Core.framework for modularization chapter"
   s.requires_arc = true
-  s.version = "1.0.1"
+  s.version = "1.0.2"
   s.license = { :type => "MIT", :file => "LICENSE" }
 
   s.author = { "MuhammadHafidz" => "hafidzamarul@gmail.com" }
